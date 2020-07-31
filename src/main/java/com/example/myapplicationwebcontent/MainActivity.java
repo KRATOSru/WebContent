@@ -15,6 +15,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.ExecutionException;
 
+//====================================================================================================
+//код для загрузки web страниц с нета
+
 public class MainActivity extends AppCompatActivity {
 
     private String google = "https://www.google.ru/";
@@ -68,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
 }
 //=================================================================================================
 //код для получения картинок с интернета
+
 //public class MainActivity extends AppCompatActivity {
 //
 //    private ImageView imageView;
@@ -119,3 +123,21 @@ public class MainActivity extends AppCompatActivity {
 //        }
 //    }
 //}
+//====================================================================================================
+//код для работы со строками, нужен для дальнейших разработок
+
+//        String nameString = "Arnold, Britney, Abama, Trump, Vasya";
+//        String[] names = nameString.split(", ");
+//        for (String name: names){
+//            Log.i("MyName", name);
+//        }
+//        String geometry = "Геометрия";
+//        String meter = geometry.substring(3, 7);
+//        Log.i("MyName", meter);
+//    }
+//        String river = "MississipiMississipi";
+//        Pattern pattern = Pattern.compile("Mi(.*?)pi");
+//        Matcher matcher = pattern.matcher(river);
+//        while (matcher.find()) {
+//            Log.i("MaName", matcher.group(1));
+//        }
